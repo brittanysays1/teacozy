@@ -1,3 +1,46 @@
-div {
-  border: 1px solid black;
+body {
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  align-content: center;
+  justify-content: space-between;
+  height: 69px;
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+}
+
+.nav {
+  display: inline-block;
+  align-self: flex-end;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.nav a {
+  width: 90px;
+  text-decoration: underline;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+}
+
+.mission {
+  height: 700px;
+  width: 1200px;
+  background-image: url("img/background.jpg");
+  display: flex;
+  align-self: center;
 }
