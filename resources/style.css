@@ -148,3 +148,23 @@ h2, h4 {
 .addresses p {
   padding: 10px 0px;
 }
+
+.footer {
+  position: relative;
+  display: inline-block;
+}
+
+.contact {
+  text-align: center;
+  height: 200px;
+}
+
+.copyright {
+  display: inline;
+  min-width: 400px;
+  position: absolute;
+  top: 200px;
+  right: 300px;
+}
+
+/*I got confused about how to align the copyright text to the left, as such, the solution that I came up with is glitchy when I resize the window.  This was the best solution I could come up with*/
